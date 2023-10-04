@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.searchBox {
+  width: 500;
+  height: 200;
+  padding: 20;
+}
