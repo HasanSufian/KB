@@ -1,0 +1,15 @@
+.scrollableList {
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+
+.scrollableList thead {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.updateSummeryTitle {
+    padding-top: 10px;
+    padding-left: 10px;
+}

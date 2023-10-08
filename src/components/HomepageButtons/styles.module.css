@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.homePagebuttons {
+  /* text-decoration: none; */
+  font-size: 20;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  /* padding-bottom: 10px; */
+  margin-left: 20px;
+  /* margin-top: 10px; */
+}
+
+.homePagebuttons:hover {
+  cursor: pointer;
+}
