@@ -11,7 +11,12 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        
+
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <div className={styles.buttons}>
+          
+        </div>
+
       </div>
     </header>
   );

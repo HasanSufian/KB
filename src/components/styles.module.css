@@ -1,15 +1,30 @@
 .scrollableList {
-    max-height: 65vh;
+    max-height: 50vh;
     overflow-y: scroll;
+    list-style: none;
+
 }
 
-.scrollableList thead {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
 
 .updateSummeryTitle {
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.listItem {
+    background-color: '#f4f4f4';
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.updateSummeryBody {
+    display: flex;
+}
+
+.listNav {
+    padding: 20px;
+    flex: 1 0 0;
 }

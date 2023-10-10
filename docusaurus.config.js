@@ -63,7 +63,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'KB',
+        title: 'Home',
         logo: {
           alt: 'KB Logo',
           src: 'img/logo.svg',
@@ -92,14 +92,18 @@ const config = {
               },
             ],
           },
+          { to: '/blog', label: 'Update Summery', position: 'left' },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
+            position: 'right',
             label: 'CRM Guide',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { href: '/branches', label: 'Branches', position: 'left' },
+          { to: '/branches/category/inside', label: 'Branches' },
+          { to: '/bolg', label: 'System' },
+          { to: '/bolg', label: 'KB' },
+          
 
 
 
