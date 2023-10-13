@@ -31,7 +31,7 @@ const ListItem = ({ id, title, desc, time, link }: ListItem) => (
 
 const UpdateSummery = () => {
 
-    const currentDate = new Date().toLocaleDateString('ar-EG', timeOptions);
+    const currentDate = new Date().toLocaleDateString();
     const todayPosts = summeryList.filter(item => item.time === currentDate);
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);

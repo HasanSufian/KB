@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[4069],{8045:e=>{e.exports=JSON.parse('{"title":"Services","slug":"/category/services","permalink":"/docs/category/services","navigation":{"previous":{"title":"termdeposits","permalink":"/docs/Products/termdeposits"},"next":{"title":"Phone Cash","permalink":"/docs/Services/PhoneCash"}}}')}}]);

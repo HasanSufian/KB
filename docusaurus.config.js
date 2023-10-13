@@ -77,7 +77,12 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/bolg', label: 'System' },
-          {to:'src/pages/dashboard.tsx', label: 'Dashboard', position:'right'},
+          {
+            type: 'doc',
+            docId: 'dash',
+            label: 'Dashboard',
+            position: 'right'
+          },
 
         ],
       },
