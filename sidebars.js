@@ -18,7 +18,6 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-
 };
 
 module.exports = sidebars;
