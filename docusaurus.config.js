@@ -1,6 +1,5 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -69,29 +68,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            'type': 'dropdown',
-            'label': 'My Breaks',
-            'position': 'right',
-            'items': [
-              {
-                'label': 'Break 1 : 07:15 PM',
-                'href': '#',
-              },
-              {
-                'label': 'Break 2 : 09:00 PM',
-                'href': '#',
-              },
-              {
-                'label': 'Break 3 : 10:15 PM',
-                'href': '#',
-              },
-              {
-                'label': 'Break 4 : 12:15 AM',
-                'href': '#',
-              },
-            ],
-          },
           { to: '/blog', label: 'Update Summery', position: 'left' },
           {
             type: 'docSidebar',
@@ -100,12 +76,8 @@ const config = {
             label: 'CRM Guide',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/branches/category/inside', label: 'Branches' },
           { to: '/bolg', label: 'System' },
-          { to: '/bolg', label: 'KB' },
-          
-
-
+          {to:'src/pages/dashboard.tsx', label: 'Dashboard', position:'right'},
 
         ],
       },
