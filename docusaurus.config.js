@@ -14,7 +14,7 @@ const config = {
   url: 'https://hasansufian.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/build/index.html/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -31,6 +31,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ar'],
+
   },
 
   presets: [
@@ -76,8 +77,13 @@ const config = {
             label: 'CRM Guide',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/bolg', label: 'System' },
-          {to:'src/pages/dashboard.tsx', label: 'Dashboard', position:'right'},
+          { to: '/branches', label: 'Branches' },
+          {
+            type: 'doc',
+            docId: 'dash',
+            label: 'Dashboard',
+            position: 'right'
+          },
 
         ],
       },
