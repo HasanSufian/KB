@@ -31,6 +31,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ar'],
+
   },
 
   presets: [
@@ -76,7 +77,7 @@ const config = {
             label: 'CRM Guide',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/bolg', label: 'System' },
+          { to: '/branches', label: 'Branches' },
           {
             type: 'doc',
             docId: 'dash',
