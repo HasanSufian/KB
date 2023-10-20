@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar'],
+    locales: ['en'],
 
   },
 
@@ -84,7 +84,17 @@ const config = {
 
     }),
 
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Option for docusaurus-search-local plugin
+
+        // language of your documentation
+        language: ["en", "ar"],
+      }
+    ]
+  ],
 };
 
 module.exports = config;
