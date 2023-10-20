@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[8317],{3006:l=>{l.exports=JSON.parse('[{"label":"docusaurus","permalink":"/NBE-Guide/blog/tags/docusaurus","count":3},{"label":"hello","permalink":"/NBE-Guide/blog/tags/hello","count":1},{"label":"hola","permalink":"/NBE-Guide/blog/tags/hola","count":1}]')}}]);
