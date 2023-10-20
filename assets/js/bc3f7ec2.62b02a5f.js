@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[6420],{9774:i=>{i.exports=JSON.parse('{"title":"IVR","slug":"/category/ivr","permalink":"/KB/docs/category/ivr","navigation":{"previous":{"title":"Activities","permalink":"/KB/docs/CRM Guide/Services/ipn/activities"},"next":{"title":"Activities","permalink":"/KB/docs/CRM Guide/Services/ivr/activities"}}}')}}]);

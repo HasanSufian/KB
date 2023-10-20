@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[8886],{3278:e=>{e.exports=JSON.parse('{"title":"CRM Guide","slug":"/category/crm-guide","permalink":"/NBE-Guide/ar/docs/category/crm-guide","navigation":{"next":{"title":"Products","permalink":"/NBE-Guide/ar/docs/category/products"}}}')}}]);
