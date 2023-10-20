@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[4918],{8762:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/NBE-Guide/ar/blog/tags/hello","allTagsPath":"/NBE-Guide/ar/blog/tags","count":1}')}}]);
