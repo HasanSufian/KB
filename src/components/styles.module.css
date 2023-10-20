@@ -1,6 +1,11 @@
 .scrollableList {
-    max-height: 50vh;
+    max-height: 55vh;
     overflow-y: scroll;
+}
+
+.scrollableList section h2  {
+    margin-right: 10px;
+    /* background-color: rgba(0, 0, 0, 0.103); */
 }
 
 ul {
@@ -14,23 +19,18 @@ ul {
 }
 
 .listItem {
-    /* background-color: '#f4f4f4'; */
     border-radius: 10px;
     padding: 16px;
     margin-bottom: 16px;
     margin-left: 15px;
     margin-right: 15px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 2px 4px #8d8d8d2c;
     position: relative;
 
 }
 .listItem:hover {
-    background-color: '#f4f4f4';
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
+    background-color: #8d8d8d2c;
+    /* cursor: pointer; */
 }
 
 .listItem .time {

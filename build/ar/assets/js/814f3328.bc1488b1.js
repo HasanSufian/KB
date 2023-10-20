@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MDX Blog Post","permalink":"/NBE-Guide/ar/blog/mdx-blog-post"},{"title":"Long Blog Post","permalink":"/NBE-Guide/ar/blog/long-blog-post"},{"title":"First Blog Post","permalink":"/NBE-Guide/ar/blog/first-blog-post"}]}')}}]);

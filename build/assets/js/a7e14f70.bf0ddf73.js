@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[1642],{5668:e=>{e.exports=JSON.parse('{"title":"Branches","slug":"/category/branches","permalink":"/docs/category/branches","navigation":{"previous":{"title":"AlAhly net","permalink":"/docs/Services/AhlyNet"},"next":{"title":"Inside Egypt","permalink":"/docs/Branches/insideEgypt"}}}')}}]);
