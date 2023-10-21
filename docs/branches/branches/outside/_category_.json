@@ -1,5 +1,6 @@
 {
-    "label": "Branches",
+    "label": "خارج مصر",
+    "position": 3,
     "link": {
         "type": "generated-index"
     }

@@ -1,14 +1,15 @@
 ---
 pagination_prev: null
 pagination_next: null
+dir: rtl
 ---
 
-import AssignClosedTable from '/src/components/Assign_Closed_Table.tsx'
+import AssignClosedTable from '/src/components/AC_Table.tsx'
 
 # Branch Complians
 شكاوي الفروع
 
-<AssignClosedTable category='Complain' product='المنتج محل الشكوي' type='Branches' details='Serves Low Level' comment='تفاصيل الشكوي' smartScript='NO' closeORassign = 'Assign'/>
+<AssignClosedTable isClosed = {false} category='Complain' product='المنتج محل الشكوي' type='Branches' details='Serves Low Level' comment='تفاصيل الشكوي' smartScript='NO' closeORassign = 'Assign'/>
 
 :::tip ملحوظة
 في بعض الاحيان تكون شكوي العميل من الاعتراض علي اجراءات البنك لذلك يجب العرض علي العميل تسجيل اعتراضه بدل من شكوي الفرع

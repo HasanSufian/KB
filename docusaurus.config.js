@@ -67,12 +67,29 @@ const config = {
       navbar: {
         title: 'Home',
         items: [
-          { to: '/blog', label: 'Update Summery', position: 'left' },
+          {
+            type: 'doc',
+            docId: 'update-summery',
+            label: 'Update Summery',
+            position: 'left',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'crmSidebar',
             position: 'right',
             label: 'CRM Guide',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'kbSidebar',
+            position: 'left',
+            label: 'KB',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'branchesSidebar',
+            position: 'left',
+            label: 'Branches',
           },
 
         ],
