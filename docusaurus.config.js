@@ -88,10 +88,16 @@ const config = {
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
-        // Option for docusaurus-search-local plugin
+        // Option for Search Box [docusaurus-search-local plugin]
 
         // language of your documentation
         language: ["en", "ar"],
+        // whether to index blog pages
+        indexBlog: true,
+        // whether to index static pages [/404.html is never indexed]
+        indexPages: true,
+        // whether to index docs pages
+        indexDocs: true,
       }
     ]
   ],
