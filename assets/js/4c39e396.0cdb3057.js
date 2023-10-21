@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[8962],{5889:e=>{e.exports=JSON.parse('{"title":"Products","slug":"/category/products-1","permalink":"/KB/docs/category/products-1","navigation":{"previous":{"title":"Knowledge Base","permalink":"/KB/docs/category/knowledge-base"},"next":{"title":"Accounts","permalink":"/KB/docs/kb/kb/products/accounts"}}}')}}]);
