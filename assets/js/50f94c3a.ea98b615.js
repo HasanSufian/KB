@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkb=self.webpackChunkkb||[]).push([[5150],{4310:e=>{e.exports=JSON.parse('{"title":"Services","slug":"/category/services-1","permalink":"/KB/docs/category/services-1","navigation":{"previous":{"title":"Term Deposits","permalink":"/KB/docs/kb/kb/products/term-deposit"},"next":{"title":"Ahly Net","permalink":"/KB/docs/kb/kb/services/ahlynet"}}}')}}]);
